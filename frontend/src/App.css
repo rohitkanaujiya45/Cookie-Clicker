@@ -1,0 +1,41 @@
+
+body {
+  background-color: #f8f5e1;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+h1 {
+  color: #b57e29;
+}
+
+h2 {
+  color: #6a4c93;
+}
+
+.click-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #ff8c00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.click-button:hover {
+  background-color: #e07b00;
+}
